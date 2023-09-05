@@ -10,7 +10,7 @@ import todoRouter from './routes/todoroutes';
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://ma6530028:NSArHZFl5t64cMF0@cluster0.5qk86qu.mongodb.net/TODO?retryWrites=true&w=majority', {
+mongoose.connect('link', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log("Connected to MongoDB")).catch(console.error);
